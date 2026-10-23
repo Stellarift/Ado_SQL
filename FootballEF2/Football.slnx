@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Football.App/Football.App.csproj" />
+  <Project Path="Football.Data/Football.Data.csproj" />
+  <Project Path="Football.Domain/Football.Domain.csproj" />
+</Solution>
