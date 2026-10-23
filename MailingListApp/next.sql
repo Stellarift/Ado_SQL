@@ -1,0 +1,10 @@
+USE MailingDb;
+GO
+
+CREATE TABLE PromoArchives (
+    Id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    ProductId INT NOT NULL,
+    Name NVARCHAR(100) NOT NULL,
+    ArchivedAt DATETIME NOT NULL DEFAULT GETDATE()
+);
+GO
